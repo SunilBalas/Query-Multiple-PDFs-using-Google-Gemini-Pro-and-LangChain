@@ -27,7 +27,7 @@ def user_input(user_query):
 # streamlit framework
 def main():
     st.set_page_config("Chat with multiple PDFs")
-    st.header("Chat with multiple PDFs using Google Gemini Pro and LagChain 🦜")
+    st.header("Chat with multiple PDFs using Google Gemini Pro and LangChain 🦜")
     
     user_query = st.text_input("Ask a question from the uploaded PDF files")
     
