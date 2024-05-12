@@ -32,9 +32,9 @@
     
     ```toml
     GOOGLE_API_KEY="YOUR GOOGLE API KEY"
-    ```
-    > [!CAUTION]  
+    ```  
     > Make sure to add `secrets.toml` file to your `.gitignore` so you don't commit your secrets!
+
 4. Run the application
 
     ```python
