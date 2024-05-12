@@ -26,12 +26,15 @@
 
     ```python 
     pip install -r requirements.txt
-3. Add the Google API Key in the `.env` file:
+3. Create `secrets.toml` file inside the `.streamlit` directory and add the Google API Key in the `secrets.toml` file:
 
     - You can create your Google API Key from [here](https://aistudio.google.com/app/apikey).
     
-    ![alt text](images/dotenv.png)
-
+    ```toml
+    GOOGLE_API_KEY="YOUR GOOGLE API KEY"
+    ```
+    > [!CAUTION]  
+    > Make sure to add `secrets.toml` file to your `.gitignore` so you don't commit your secrets!
 4. Run the application
 
     ```python
