@@ -1,4 +1,4 @@
-# Query Multiple PDFs using Google Gemini Pro and LangChain
+# Query Multiple PDFs using Google Gemini Pro and LangChain 🦜
 
 ### This project is designed to help users query information from multiple PDF documents effortlessly. By uploading multiple PDFs, users can ask questions related to the content within those documents, and the system will generate answers based on the processed data.
 
@@ -22,23 +22,31 @@
 
     ```git
     git clone https://github.com/SunilBalas/Query-Multiple-PDFs-using-Google-Gemini-Pro-and-LangChain.git
+    ```
+    
 2. Install the required dependencies
 
     ```python 
     pip install -r requirements.txt
+    ```
+    
 3. Create `secrets.toml` file inside the `.streamlit` directory and add the Google API Key in the `secrets.toml` file:
 
-    - You can create your Google API Key from [here](https://aistudio.google.com/app/apikey).
+   > You can create your Google API Key from [here](https://aistudio.google.com/app/apikey).
+      
     
     ```toml
     GOOGLE_API_KEY="YOUR GOOGLE API KEY"
-    ```  
+    ```
+    
     > Make sure to add `secrets.toml` file to your `.gitignore` so you don't commit your secrets!
 
 4. Run the application
 
     ```python
     streamlit run app.py
+    ```
+    
 5. Upload your PDF documents using the provided interface
     
     ![alt text](images/1.png)
@@ -59,14 +67,20 @@
 
     ```git
     git checkout -b my-new-feature
+    ```
+    
 3. Commit your changes
 
     ```git
     git commit -a -m 'Add some feature'
+    ```
+    
 4. Push to the branch
 
     ```git
     git push origin my-new-feature
+    ```
+    
 5. Submit a pull request
 
 ## License
